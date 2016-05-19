@@ -12,3 +12,13 @@ body{
 .header .scoial-networks{
 	margin:0;
 }
+
+.header.header-bottom{
+	background:#ffffff;
+	margin:0;
+}
+/*  body  */
+.body{
+	background:#4ca368;
+	
+}
