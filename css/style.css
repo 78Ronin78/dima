@@ -1,5 +1,16 @@
 /* overall */
+*{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 body{
+	padding:0px;
+	margin:0px;
+	font-size:14px;
+	font-family:'Roboto', sans-serif;
+}
+.social-networks{
 	padding:0px;
 	margin:0px;
 }
@@ -9,7 +20,7 @@ body{
 	background:#282828;
 	height:45px;
 }
-.header-bottom{
+.header .header-bottom{
 	height:70px;
 }
 
@@ -17,39 +28,84 @@ body{
 	display:inline;
 
 }
+/* 
+Пробел означает что один объект внутри другого
 
-.social-networks{
+Запятая между классами ставится когда нужно для нескольких классов
+указать одни и те же свойства 
+*/
+.header .container{
+	overflow:hidden; /* указывается у родителя если у ребенка указан float */
+	margin:0 auto;
+	width:1170px;
+	padding:0 15px;
+}
+
+.header .logo{
+	background: url(..//images/logo.png) no-repeat;
+	height:22px;
+	width: 188px;
+}
+
+.header .contacts{
 	padding:0px;
 	margin:0px;
 }
-.contacts{
-	padding:0px;
-	margin:0px;
-}
-.col-right{
-	float:right;
-	width:681px;
-}
 
-.col-left {
+.header .col{
 	float:left;
-	width:681px;
-}
-.logo{
-	background: url(..//images/logo.png) no-repeat center;
-	height:45px;
-	padding:13px;
+	width:50%;
 }
 
-.col-right ul li{
-	display:inline;
-	margin-right:42px;
+.header .col-left{
+	padding: 24px 0 0 0;
 }
 
-.col-right .navigation{
+.header .col-right{
+	padding: 20px 0 5px 0;
+	text-align:right;
+}
+
+.header .navigation{
 	padding:0px;
-	margin:26px;
+	margin:0px;
+	list-style:none;
 }
+
+.header .navigation li{
+	display:inline-block;
+}
+
+.header .navigation a{
+	display:block;
+	text-decoration:none;
+	color:#000;
+	padding:6px 22px;
+	border:1px solid #fff;
+	border-radius:20px;
+	transition:background .2s, color .2s, border-color .2s;
+}
+
+.header .navigation a:hover{
+	background:#f3f3f3;
+	border-color:#f3f3f3;
+}
+
+.header .navigation a.sign-in{
+	color:#5db442;
+	border:1px solid #5db442;
+	padding:6px 26px;
+	margin-left:10px;
+}
+
+
+
+.header .navigation a.sign-in:hover{
+	color:#fff;
+	background:#5db442;
+	box-shadow:0 1px 5px 0 rgba(0,0,0,.35);
+}
+
 
 
 
