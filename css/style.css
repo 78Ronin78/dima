@@ -1,24 +1,67 @@
 /* overall */
 body{
-	padding:0;
-	margin:0;
+	padding:0px;
+	margin:0px;
 }
 
 /* header */
 .header .header-top{
 	background:#282828;
+	height:45px;
+}
+.header-bottom{
+	height:70px;
 }
 
-.header .scoial-networks{
-	margin:0;
+.header .header-top .container ul li{
+	display:inline;
+
 }
 
-.header.header-bottom{
-	background:#ffffff;
-	margin:0;
+.social-networks{
+	padding:0px;
+	margin:0px;
 }
-/*  body  */
-.body{
-	background:#4ca368;
-	
+.contacts{
+	padding:0px;
+	margin:0px;
+}
+.col-right{
+	float:right;
+	width:681px;
+}
+
+.col-left {
+	float:left;
+	width:681px;
+}
+.logo{
+	background: url(..//images/logo.png) no-repeat center;
+	height:45px;
+	padding:13px;
+}
+
+.col-right ul li{
+	display:inline;
+	margin-right:42px;
+}
+
+.col-right .navigation{
+	padding:0px;
+	margin:26px;
+}
+
+
+
+
+
+
+/*  green-block  */
+.green-block{
+	background:#4ca368 url(../images/noteboock.png) no-repeat center;
+	height:600px;
+}
+.text{
+	margin:0px;
+	padding:0px;
 }
