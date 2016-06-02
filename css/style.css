@@ -1,4 +1,4 @@
-/* overall */
+﻿/* overall */
 *{
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -10,10 +10,10 @@ body{
 	font-size:14px;
 	font-family:'Roboto', sans-serif;
 }
-.social-networks{
-	padding:0px;
-	margin:0px;
+a{
+	text-decoration:none;
 }
+
 
 /* header */
 .header .header-top{
@@ -24,10 +24,54 @@ body{
 	height:70px;
 }
 
-.header .header-top .container ul li{
-	display:inline;
+.header .header-top .container li{
+	display:inline-block;
 
 }
+
+.social-networks{
+	padding:15px 0 0 0;
+	margin:0;
+	list-style:none;
+    
+}
+.social-networks a{
+	height: 13px;
+	width:16px;
+	display:block;
+}
+
+
+.header .header-top .container .social-networks .facebook{
+	background: url(..//images/sprite.png) no-repeat 0 0;
+}
+.header .header-top .container .social-networks .twitter{
+	background: url(..//images/sprite.png) no-repeat -18px 0;
+}
+.header .header-top .container .social-networks .google{
+	background: url(..//images/sprite.png) no-repeat -38px 0;
+}
+.header .header-top .container .social-networks .in{
+	background: url(..//images/sprite.png) no-repeat -58px 0;
+}
+.header .header-top .social-networks{
+	display:inline-block;
+}
+
+.header .header-top .contacts{
+	display:inline-block;
+	padding: 0 0 10px 0;
+	margin:0 0 0 778px;
+}
+.header .header-top .contacts a{
+	color:#e1e1e1;
+}
+.header .header-top .container .contacts .phone{
+	background: url(..//images/sprite.png) no-repeat 0 0;
+}
+
+
+
 /* 
 Пробел означает что один объект внутри другого
 
@@ -47,10 +91,6 @@ body{
 	width: 188px;
 }
 
-.header .contacts{
-	padding:0px;
-	margin:0px;
-}
 
 .header .col{
 	float:left;
@@ -114,10 +154,91 @@ body{
 
 /*  green-block  */
 .green-block{
-	background:#4ca368 url(../images/noteboock.png) no-repeat center;
-	height:600px;
+	height:720px;
+	background:#4ca368;
 }
+
+.green-block .container{
+	overflow:hidden;
+	margin:0 auto;
+	width:1170px;
+	padding:0 15px;
+}
+
 .text{
-	margin:0px;
-	padding:0px;
+	margin:0 auto;
+	padding:0;
 }
+
+.topic{
+	font-size:35pt;
+	text-align:center;
+	font-weight:normal;
+	padding:90px 0 0;
+}
+
+.content{
+	text-align:center;
+	padding:25px 246px;
+	font-size:10pt;
+}
+
+.noteboock{
+	background: url(../images/noteboock.png) no-repeat center;
+	height:396px;
+	margin:0 0;
+}
+
+
+/* free-block */
+
+.free-block{
+	height:120px;
+	background:#efefef;
+}
+
+.free-block .email {
+	overflow:hidden; 
+	margin:0 auto;
+	width:1170px;
+	padding:0 15px;
+}
+
+.free-block .email ul{
+	margin:0 auto;
+	padding:30px 449px 0;
+	
+}
+
+
+.free-block  .email li{
+	display:inline-block;
+	list-style-type: none;
+	padding:6px;
+}
+.addres{
+	border:1px solid #000;
+	border-radius:20px 0 0 20px;
+}
+.use-it-free{
+	border:1px solid #000;
+	border-radius: 0 20px 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
