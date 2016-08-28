@@ -60,14 +60,32 @@ a{
 
 .header .header-top .contacts{
 	display:inline-block;
-	padding: 0 0 10px 0;
-	margin:0 0 0 778px;
+	padding: 0 0 10px 10px;
+	margin: 0 0 0 699px;
+
 }
 .header .header-top .contacts a{
 	color:#e1e1e1;
 }
+.header .header-top .contacts li{
+	color:#e1e1e1;
+	margin: 0px -29px 0 30px;
+}
 .header .header-top .container .contacts .phone{
-	background: url(..//images/sprite.png) no-repeat 0 0;
+	background: url(..//images/sprite.png) no-repeat -103px 2px ;
+	margin: 0 0 0 0px;
+	padding: 0 0 0 20px;
+	height: 13px;
+	width:154px;
+	display:block;
+}
+
+.header .header-top .container .contacts .email{
+	background: url(..//images/sprite.png) no-repeat -78px 3px ;
+	padding: 0 0 0 24px;
+	height: 17px;
+	width:24px;
+	display:block;
 }
 
 
