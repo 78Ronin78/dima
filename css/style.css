@@ -230,6 +230,7 @@ a{
 	padding:10px 15px 10px 10px;
 	background:#5db442;
 	color:#c9e6c0;
+	transition:background .2s, color .2s, border-color .2s;
 }
 
 .form-mail .post,.button:focus{
@@ -252,9 +253,49 @@ a{
 	font-size: 10pt;
 }
 
+.form-mail .button:hover {
+	background:#435e29;
+}
 
+/* Community */
 
+.community {
+	height:690px;
+	background:url(../images/pic1.jpg) no-repeat center; 
+}
 
+.trans-block{
+	height:690px;
+	width:auto;
+	background: #000;
+    opacity: .6;
+}
+
+.cover-text{
+	display:block;
+	height:25px;
+	width:490px;
+	color:#fff;
+	margin:70px auto;
+	font-size:350%;
+	text-align:center;
+}
+
+.mini-trans-block{
+	height:70px;
+	width:630px;
+	background:#8b8b8b;
+	opacity: .6;
+	margin:80px auto 0px;
+	padding:130px;
+}
+
+.mini-trans-block .arrow{
+	display:block;
+	height:58px;
+	width:69px;
+	background:url(../images/arrow1.png) no-repeat;
+}
 
 
 
