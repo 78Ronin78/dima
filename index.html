@@ -57,8 +57,8 @@
 		<div class="container">
 			<div class="form-mail">
 				<form>
-					<input type="text" class="post" placeholder="Enter your email adress">
-					<input type="submit" class="button" name value="Use it free">
+					<input type="text" id="post" placeholder="Enter your email address">
+					<input type="submit" id="button" name value="Use it free" method="POST">
 				</form>	
 			</div>
 			<div class="signature">By clicking Use it free, you agree to the Power BI Terms of service</div>
@@ -66,20 +66,49 @@
 	</div>
 	
 	<div class="community">
-		<div class="trans-block">
+		<div class="transparent-block">
 				<div class="container">
 					<div class="cover-text">Community Sign Up</div>
-					<div class="mini-trans-block">
-						<div class="arrow"></div>
-						<div class="process">Signup process</div>
-						<div class="steps">
-							<ul>
-								<li></li>
-								<li></li>
+					<div class="middle-transblock">
+						<div class="layer">
+							<ul class="linkslayer">
+								<li><a href="#Post" class="layerUp"></a></li>
+								<li><a href="#button" class="layerDown"></a></li>
 							</ul>
 						</div>
+						<div class="signup-process">
+							<div class="sgLayer">
+								<a href="#Post"></a>
+							</div>
+							<div class="sgSteps">
+								<p id="sgp">SIGNUP PROCESS</p>
+								<ol class="sgList">
+									<li class="signup-steps">User enters email address</li>
+									<li class="signup-steps">Clicks on "Sign up for free"</li>
+								</ol>
+							</div>
+						</div>
 					</div>
-						
+					<div class="com-position">
+						<div id="posright">
+							<a href="#" id="one">
+								<div id="imgone"></div>
+							</a>
+							<p class="info">Community Edition</p>
+						</div>
+						<div id="posmiddle">
+							<a href="#" id="two">
+								<div id="imgtwo"></div>
+							</a>
+							<p class="info">Complete Signup Process</p>
+						</div>
+						<div id="posleft">
+							<a href="#" id="three">
+								<div id="imgthree"></div>
+							</a>
+							<p class="info">Sign Up</p>
+						</div>
+					</div>
 				</div>
 		</div>
 	</div>
